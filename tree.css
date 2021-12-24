@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom right, beige, snow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+
+}
+
+p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: gold;
+    font-size: 30px;
+    border-bottom: solid 2px gold;
+
+}
+
+.MainCard{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    box-shadow: 5px 2px 2px gray;
+    border-radius: 2%;
+    border-top: dashed white 15px;
+    border-bottom: dashed white 15px;
+    border-right: dashed white 15px;
+    border-left: dashed white 15px;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items:center;
+}
+
+.PicImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    border: solid 2px white;
+    background: url(.jpg) no-repeat center/cover;
+}
+.Mesge{
+    margin-top: 10px;
+    width: 300px;
+}
+.Img{
+    width: 300px;
+    height: 300px;
+}
+.GiftText{
+    text-align: center;
+    color: red;
+    font-family: 'Readex Pro', sans-serif;
+}
